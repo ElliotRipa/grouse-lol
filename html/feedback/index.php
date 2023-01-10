@@ -1,82 +1,88 @@
+<html>
+
+<head>
+
+	<title>Feedback</title>
+	<link rel="stylesheet" href="/css/stylesheet.css">
+
+</head>
+
+<body>
+<div id="header">Feedback</h1></div>
+	<div>
+
+		<p>So you want to give me feedback, eh?<br>
+                What? You think you're better than me?<br>
+                You think you know better than me?<br>
+                You gonna complain that grammatically speaking it should be
+                "better than I" in both those sentences becuase of the hidden subclause?<br>
+                Well, looks like I beat you to it.</p>
+
+                <p>In all seriousness though, I welcome all feedback. If you're looking to
+                recommend a movie to me, then I suggest going to this <a href="Okay so I haven't made that website yet, but I'm working on it, trust me">link</a>
+
+
+		<form action="index.php" method="get">
+		Give me feedback: <input type="text" name="feedback"><br>
+		<input type="submit">
+
+		</form>
+
+	</div>
+
+</body>
+
+</html>
+
 <?php
 
+$servername = "localhost";
+$username = "website";
+$password = "ne!JB9C2SK35";
+$dbname = "feedback";
+
+$feedback = $_GET["feedback"];
 
 
-header("Content-type:application/json");
+
+if($feedback and strlen($feedback) < 512){
 
 
 
-function load_class($class) {
+	$feedback = stringify($feedback);
 
-    require_once $class . '.php';
+	$currentDate = date("Y-m-d");
+
+	$currentDate = stringify($currentDate);
+
+
+	try {
+	  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+	  // set the PDO error mode to exception
+	  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	  $sql = "INSERT INTO Feedback (dateRecieved, text)
+	  VALUES ($currentDate, $feedback)";
+	  // use exec() because no results are returned
+	  $conn->exec($sql);
+	  echo "Sent!";
+	} catch(PDOException $e) {
+	  echo $sql . "<br>" . $e->getMessage();
+	}
+
+
 
 }
 
 
 
-spl_autoload_register('load_class');
+$conn = null;
 
 
+function stringify($word) {
 
-$http_verb = $_SERVER['REQUEST_METHOD'];
+	$output = "'".$word."'";
 
-
-
-if ($_SERVER['REQUEST_METHOD'] == 'GET') {
-
-    foreach($_GET as $key => $value) {
-
-        $params[$key] = $value;
-
-    }
-
+	return $output;
 }
 
-
-
-$request  = explode('/', $_REQUEST['request']);
-
-$resource = $request[0];
-
-
-
-if (isset($request[1])) {
-
-    $resource_id = $request[1];
-
-} else {
-
-    $resource_id = '';
-
-}
-
-
-
-if ($resource == 'movies') {
-
-    $request = new Movies;
-
-}
-
-
-
-if ($http_verb == 'GET') {
-
-
-
-    if (!empty($resource_id)) {
-
-        $response = $request->read($resource_id);
-
-    } else {
-
-        $response = $request->read($resource_id, $params);
-
-    }
-
-
-
-    echo $response;
-
-}
-
+?>
