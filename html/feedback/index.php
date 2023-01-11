@@ -80,7 +80,10 @@ $conn = null;
 
 function stringify($word) {
 
-	$output = "'".$word."'";
+	$output = str_replace("'", "''", $word);
+
+	$output = "'".$output."'";
+
 
 	return $output;
 }
