@@ -1,3 +1,6 @@
+
+
+
 <?php
 
 $servername = "localhost";
@@ -5,7 +8,7 @@ $username = "website";
 $password = "ne!JB9C2SK35";
 $dbname = "media";
 
-$file = fopen("filepath.csv", "r");
+$file = fopen("movies.csv", "r");
 
 $errorList = [];
 
