@@ -2,9 +2,9 @@
 
 <form action="testadd.php" method="get">
 	Name: <input type="text" name="name"><br>
-	Release Date: <input type="text" name="releasedate"><br>
-	IMDB id: <input type="text" name="imdbid"><br>
-	IMDB Rating: <input type="text" name="imdbrating"><br>
+	Release Date: <input type="text" name="release_date"><br>
+	IMDB id: <input type="text" name="imdb_id"><br>
+	IMDB Rating: <input type="text" name="imdb_rating"><br>
 	Source: <input type="text" name="source"><br>
 	Path: <input type="text" name="path"><br>
 <input type="submit">
@@ -19,12 +19,12 @@ $username = "website";
 $password = "ne!JB9C2SK35";
 $dbname = "media";
 
-$possibleFields = ["source", "path", "imdbid", "imdbrating"];
+$possibleFields = ["source", "path", "imdb_id", "imdb_rating"];
 $specifiedFields = "";
 $specifiedValues = "";
 
 $name = $_GET["name"];
-$releasedate = $_GET["releasedate"];
+$release_date = $_GET["release_date"];
 
 foreach($possibleFields as $field) {
 
@@ -37,17 +37,17 @@ foreach($possibleFields as $field) {
 }
 
 
-if($name & $releasedate){
+if($name & $release_date){
 
 $name = stringify($name);
-$releasedate = stringify($releasedate);
+$release_date = stringify($release_date);
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $sql = "INSERT INTO movies (name, releasedate".$specifiedFields.")
-  VALUES ($name, $releasedate".$specifiedValues.")";
+  $sql = "INSERT INTO movies (name, release_date".$specifiedFields.")
+  VALUES ($name, $release_date".$specifiedValues.")";
   // use exec() because no results are returned
   $conn->exec($sql);
   echo "New record created successfully";

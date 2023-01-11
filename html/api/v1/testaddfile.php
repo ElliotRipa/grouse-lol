@@ -41,9 +41,9 @@ if($file !== FALSE) {
 			$name = str_replace("'", "''", $data[0]);
 
 			if($source) {
-				$sql = "INSERT INTO movies (name, releasedate, imdbrating, imdbid, source) VALUES ('". $name . "', '" . $data[1] . "', '" . $data[2] . "', '" . $data[3] . "', '" . $source . "')";
+				$sql = "INSERT INTO movies (name, release_date, imdb_rating, imdb_id, source) VALUES ('". $name . "', '" . $data[1] . "', '" . $data[2] . "', '" . $data[3] . "', '" . $source . "')";
 			} else {
-				$sql =  "INSERT INTO movies (name, releasedate, imdbrating, imdbid) VALUES ('". $name . "', '" . $data[1] . "', '" . $data[2] . "', '" . $data[3] . "')";
+				$sql =  "INSERT INTO movies (name, release_date, imdb_rating, imdb_id) VALUES ('". $name . "', '" . $data[1] . "', '" . $data[2] . "', '" . $data[3] . "')";
 			}
 
 			try {
