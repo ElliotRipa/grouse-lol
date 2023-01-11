@@ -5,10 +5,10 @@
 
 $servername = "localhost";
 $username = "website";
-$password = "ne!JB9C2SK35";
+$password = "Fill this in when you need it";
 $dbname = "media";
 
-$file = fopen("movies.csv", "r");
+$file = fopen("Fill this in when you need it", "r");
 
 $errorList = [];
 
