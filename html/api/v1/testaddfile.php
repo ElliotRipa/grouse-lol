@@ -5,10 +5,10 @@
 
 $servername = "localhost";
 $username = "website";
-$password = "Fill this in when you need it";
+$password = "";
 $dbname = "media";
 
-$file = fopen("Fill this in when you need it", "r");
+$file = fopen("", "r");
 
 $errorList = [];
 
