@@ -1,6 +1,6 @@
 <html>
 
-<form action="testadd.php" method="get">
+<form action="addmovie.php" method="get">
 	Name: <input type="text" name="name"><br>
 	Release Date: <input type="text" name="release_date"><br>
 	IMDB id: <input type="text" name="imdb_id"><br>
