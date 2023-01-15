@@ -35,6 +35,15 @@ div.button-container {
 	background-color: transparent;
 }
 
+img.fullsize {
+	display: block;
+	width: 95%;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 input[type=button], input[type=submit], input[type=reset] {
 	background-color: #0f824a;
 	color: #ffff;
