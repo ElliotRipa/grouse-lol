@@ -1,20 +1,37 @@
 <html>
 <head>
-	<title>Inspiration</title>
-	<link rel="stylesheet" href="../../css/stylesheet.css">
+	<title>day01</title>
+	<link rel="stylesheet" href="../../../css/stylesheet.css">
 </head>
 
 <body>
 <div id="header">
-	Advent of Code 2023: day01
+	Advent of Code 2022: Elves Counting Calories
 </div>
 
 <div>
 
 	<h2>Premise</h2>
-	<p>The first task was pretty easy, given a file looking something like this:
-	<img ref="
 
+	<p>The first task was pretty easy, given a file looking something like this:<p>
+	<img src="../images/day01input.png"><p>
+	I was to interpret this as the number of calories of food carried by a bunch of elves, where the spaces symbolised the end of one elf's baggage
+	and the beginning of the next one's. Using this, I then had to calculate which elf was carrying the most calories. Pretty simple stuff.
+	</p>
+	
+	<h2>Execution</h2>
+	<p>The first thing I did was create a standard FileReader to read every line and add it as a String in an array which was then returned, this took
+	a while to get right because I, for the life of me, cannot get file readers to work well, but eventually I got it up and running.<br>
+	Luckily I had recently finished a course in data structures and algorithms and immediately thought that a priority queue would be great for this.
+	So I created an inner class called Elf which had a number and a calorieCount variable, with a compareTo function simply comparing their calorieCounts.
+	With this I could iteratively read all the elves into a PriorityQueue. However I ran into a problem here because PriorityQueues by default sort after smallest first,
+	and I wanted the largest value first. I considered redefining the compareTo function but figured that'd be bad coding practice, but luckily I learned that
+	when creating the PriorityQueue you can just make it using "new PriorityQueue<>(Collections.reverseOrder())" to make it automatically sort in the opposite
+	order. Having done this I just used the .remove() command to get the largest value.
+
+	<h2>Part Two</h2>
+	That's when I learned that there are two tasks every day and not just one. However this one proved to be really easy as it was just to get the sum of the three
+	most-carrying elves' calorieCounts and return that. So I added a for loop to remove three elves and add the calorieCounts to a seperate variable and return that.
 </div>
 
 </body>
