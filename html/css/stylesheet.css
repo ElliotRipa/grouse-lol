@@ -3,17 +3,6 @@
 	src: url("/fonts/cooperblack.ttf");
 }
 
-div#bg {
-	top: 0;
-	left: 0;
-	width: 100%;
-	
-    	margin: 0;
-    	background: linear-gradient(to bottom, rgba(255, 166, 0, 0.8), rgba(0, 255, 183, 0.8),rgba(255, 166, 0, 0.8) );
-    	opacity: .8;
-	padding: 0;
-	zindex: -1;
-}
 
 div#header {
 	background-color: #0f824a;
@@ -29,13 +18,23 @@ div#header {
 
 body {
 	background-color: darkgrey;	
-
+	background-image: linear-gradient(to bottom, rgba(255, 166, 0, 0.8), rgba(0, 255, 183, 0.8),rgba(255, 166, 0, 0.8) );
+<!--	background-image: linear-gradient(to bottom, rgba(214, 2, 112, 0.8), rgba(155, 79, 150, 0.8), rgba(0, 56, 168, 0.8) );-->
 	font-family: "Times New Roman";
 	margin: 0;
 	padding: 0;
 }
 
 div {
+	margin: auto;
+	margin-top: 10px;
+	background-color: none;
+
+	padding: 10px;
+	width: 75vw;
+}
+
+div.main {
 	margin: auto;
 	margin-top: 10px;
 	background-color: lightgrey;
