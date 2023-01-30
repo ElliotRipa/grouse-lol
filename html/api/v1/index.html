@@ -2,19 +2,20 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Movie Time!</title>
+		<link rel="stylesheet" href="/css/stylesheet.css">
 	</head>
 
 	<body>
-		<div><h1>Grouse's Media Server!</h1></div>
-
-		<h1>Grouse's Media Server!</h1>
+		<div id="header">Grouse's Media Server!</div>
+		
+		<div class="main">
 		<h2>Welcome!</h2>
 
 		<form action="movies" method="get">
 			<label for="name">Movie name:</label><br>
 			<input type="text" id="name" name="name"><br>
 			
-			<input type="submit">
+			<input type="submit" value="Search">
 
 		</form>
 
@@ -22,8 +23,8 @@
 			<label for="id">Movie ID:</label><br>
 			<input type="text" id="id" name="id"><br>
 
-			<input type="submit">
-
+			<input type="submit" value="Search">
+		</div>
 	</body>
 
 </html>
