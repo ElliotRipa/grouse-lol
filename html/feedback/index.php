@@ -9,7 +9,7 @@
 
 <body>
 <div id="header">Feedback</h1></div>
-	<div>
+	<div class="main">
 
 		<p>So you want to give me feedback, eh?<br>
                 What? You think you're better than me?<br>
