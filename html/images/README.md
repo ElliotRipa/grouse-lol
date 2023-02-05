@@ -15,3 +15,6 @@ snake.gif\
 
 snake-mirrored.gif\
 ![snake-mirrored.gif](snake-mirrored.gif)
+
+frax-bg.png\
+![frax-bg.png](frax-bg.png)
