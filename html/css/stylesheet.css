@@ -3,6 +3,10 @@
 	src: url("/fonts/cooperblack.ttf");
 }
 
+@font-face {
+	font-family: "FreePixel";
+	src: url("fonts/freepixel.ttf")
+}
 
 div#header {
 	background-color: #0f824a;
@@ -11,14 +15,15 @@ div#header {
 	padding: 50px 0;
 	width: 75vw;
 	font-size: 52px;
-	font-family: "Cooper Black";
+	font-family: "FreePixel";
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
 
 body {
 	background: url('/images/frax-bg.png') repeat 0 0;
-	font-family: "Times New Roman";
+	font-family: "FreePixel";
+	color: white;
 	padding: 0;
 }
 
@@ -27,6 +32,7 @@ div {
 	margin-top: 10px;
 	background-color: none;
 
+	border-bottom: 2px solid black;
 	padding: 10px;
 	width: 75vw;
 }
@@ -34,10 +40,10 @@ div {
 div.main {
 	margin: auto;
 	margin-top: 10px;
-	background-color: lightgrey;
+	background-color: #0E191A;
 
 	border-top: 24px solid;
-	border-image: linear-gradient(to right, #ff00fa, #8100ff) 1 0 0 0;
+	border-image: linear-gradient(to right, #FAED00, #8100ff) 1 0 0 0;
 /*	border-left: 2px solid black;*/
 
 	padding: 10px;
