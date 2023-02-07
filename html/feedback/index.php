@@ -41,6 +41,10 @@ $username = "website";
 $password = "ne!JB9C2SK35";
 $dbname = "feedback";
 
+$ipaddress = getenv("REMOTE_ADDR") ;
+$ipaddress = stringify($ipaddress);
+
+
 $feedback = $_GET["feedback"];
 
 
@@ -60,8 +64,8 @@ if($feedback and strlen($feedback) < 512){
 	  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 	  // set the PDO error mode to exception
 	  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-	  $sql = "INSERT INTO Feedback (dateRecieved, text)
-	  VALUES ($currentDate, $feedback)";
+	  $sql = "INSERT INTO Feedback (dateRecieved, text, ip_address)
+	  VALUES ($currentDate, $feedback, $ipaddress)";
 	  // use exec() because no results are returned
 	  $conn->exec($sql);
 	  echo "Sent!";
