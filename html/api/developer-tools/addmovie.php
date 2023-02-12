@@ -1,6 +1,16 @@
 <html>
 
-<form action="addmovie.php" method="get">
+<head>
+<title>Add Movie</title>
+<link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+
+<div id="header">
+	Add Movie!
+</div>
+
+<div class="main">
+<form autocomplete="off" action="addmovie.php" method="get">
 	Name: <input type="text" name="name"><br>
 	Release Date: <input type="text" name="release_date"><br>
 	IMDB Rating: <input type="text" name="imdb_rating"><br>
@@ -9,6 +19,7 @@
 	Path: <input type="text" name="path"><br>
 <input type="submit">
 </form>
+</div>
 
 </html>
 
