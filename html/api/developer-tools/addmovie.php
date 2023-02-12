@@ -3,6 +3,16 @@
 <head>
 <title>Add Movie</title>
 <link rel="stylesheet" href="/css/stylesheet.css">
+<style>
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+</style>
+
+
 </head>
 
 <div id="header">
@@ -10,15 +20,38 @@
 </div>
 
 <div class="main">
-<form autocomplete="off" action="addmovie.php" method="get">
-	Name: <input type="text" name="name"><br>
-	Release Date: <input type="text" name="release_date"><br>
-	IMDB Rating: <input type="text" name="imdb_rating"><br>
-	IMDB id: <input type="text" name="imdb_id"><br>
-	Source: <input type="text" name="source"><br>
-	Path: <input type="text" name="path"><br>
-<input type="submit">
+
+<form>
+
+	<p>
+		<label for="name">Movie Name:</label>
+		<input type="text" name="name">
+	</p>
+	<p>
+		<label for="release_date">Release Date:</label>
+		<input type="text" name="release_date">
+	</p>
+	<p>
+		<label for="imdb_rating">IMDB Rating:</label>
+		<input type="text" name="imdb_rating">
+	</p>
+	<p>
+		<label for="imdb_id">IMDB ID:</label>
+		<input type="text" name="imdb_id">
+	</p>
+	<p>
+		<label for="source">Source:</label>
+		<input type="text" name="source">
+	</p>
+	<p>
+		<label for="path">Path:</label>
+		<input type="text" name="path">
+	</p>
+
+	<input type="submit">
+
 </form>
+
 </div>
 
 </html>
@@ -53,6 +86,7 @@ if($name & $release_date){
 $name = stringify($name);
 $release_date = stringify($release_date);
 
+echo "<div class='main'>";
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
@@ -68,6 +102,8 @@ try {
 
 $conn = null;
 }
+echo "</div>";
+
 
 function stringify($word) {
 
