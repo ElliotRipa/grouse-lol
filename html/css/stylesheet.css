@@ -8,6 +8,13 @@
 	src: url("fonts/freepixel.ttf")
 }
 
+/*Experimental code. Might get deleted.*/
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+
 div#header {
 	background-color: #0f824a;
 
