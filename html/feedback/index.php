@@ -68,9 +68,9 @@ if($feedback and strlen($feedback) < 512){
 	  VALUES ($currentDate, $feedback, $ipaddress)";
 	  // use exec() because no results are returned
 	  $conn->exec($sql);
-	  echo "Sent!";
+	  echo "<div class=main>" . "Sent!" . "</div>";
 	} catch(PDOException $e) {
-	  echo $sql . "<br>" . $e->getMessage();
+	  echo "<div class=main>" . $sql . "<br>" . $e->getMessage() . "</div>";
 	}
 
 
