@@ -1,312 +1,107 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <!--
-    Modified from the Modified from the Debian original for Ubuntu original for grouse.lol
-    Last updated: 2023-01-23
-    See: grouse.lol
-  -->
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Grouse.lol</title>
-    <style type="text/css" media="screen">
-  * {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
+<!DOCTYPE html>
+<html>
+<head>
+<title>akesi Ejo</title>
+<link rel="stylesheet" href="../css/stylesheet.css">
 
-  body, html {
-    padding: 3px 3px 3px 3px;
+</head>
 
-    background-color: #D8DBE2;
+<div id=header>
+	lipu pi akesi Ejo (Grouse.lol)
+</div>
+<div class=main>
+	<h1>o lukin!</h1>
+	<!-- And welcome to the legendary website <a href="http://grouse.lol" class=rainbow>grouse.lol</a>! You're probably wondering what's here,
+	aren't you?<br>
+	That's a rhetorical question, you don't have to answer.<br>
+	Well, this website is essentially just an unholy amalgamation of whatever ideas I (The eponymous Grouse) decide to throw together and put out there.
+	<br>The one of the biggest scope would be my <a href="api">API</a>, through which you can access a fairly large database of moives I've gathered over 
+	some time. It is by no means complete, nor would I ever want it to be. Because its purpose is really just to serve as a watch-list for myself. One which
+	I'll probably never finish, but I'll try.<br>
+	I recently went through a pretty major redesign of this website, so if you want to see my throught process for this beautiful site, smash this mf-ing <a href="posts/aesthetic-overhaul">link</a>!<br>
+	Okey, that's the main thing. So if you have any other cool ideas of what I should make, you can drop them at <a href="feedback">this here link</a>. -->
 
-    font-family: Ubuntu, Verdana, sans-serif;
-    font-size: 11pt;
-    text-align: center;
-  }
+	ni li lipu pi akesi Ejo epiku. sina wile sona ala sona e ni: ijo ni li seme?
+	ni li jo ijo mute. ni li jo ijo mi pona. ni li jo ijo mi ike.
+	<br>ijo pi pona mute li <a href="api">ilo pi pana sona</a>. ni pana sona pi musi pi jasima tawa. ni li jo ni ale ala. ni li jo ni mute.
 
-  div.main_page {
-    position: relative;
-    display: table;
+</div>
 
-    width: 800px;
+<div class=main>
+	<h1>TODOs</h1>
+	So I have a lot of things planned, both for this site, and for life in general. So here's a TODO list. Please note that a lot of the ones in the second section aren't all that serious,
+	but hopefully you'd be able to figure that out by yourself.
 
-    margin-bottom: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px 0px 0px;
+	<h2>Website related:</h2>	
+	<ul>
+		<li>Add shows' episodes to the database.</li>
+                <li>Add movies' lengths to the database.</li>
+                <li>Find out how to display movies with weird unicode signs.</li>
+                <ul><li>Probably not able to just change some head info in the php file.</li></ul>
+                <li>Move the fonts folder so they can be used globally.</li>
+                <li>Add a disclaimer about the GitHub repo not updating automatically.</li>
+                <li>Add a link to the GitHub repo.</li>
+                <li>Just add some links in general.</li>
+                <li>Add a toki pona language option.</li>
+                <li>Add a UI for the developer tools page.</li>
+                <li>Add stuff about the Advent of Code.</li>
+                <li>Blog?</li>
+                <li>Add a list of some known aliases. Maybe?</li>
+                <li>Add some sort of divider between the website-related TODOs and the other ones.</li>
+                <li>Fix the API's search function.</li>
+                <li>Remove duplicate entries from the database.</li>
+                <li>Add YouTube videos to the database.</li>
+		<li>Add a link to suggest movies.</li>
+		<li>Add music to the database?</li>
+		<li>Clean up the database.</li>
+		<li>Make a program that can export or import an entire MySQL-database.</li>
+		<li>Change the standard data type from VARCHAR to TEXT.</li>
+		<li>Make the database notify your phone when feedback is submitted.</li>
+		<li>Add a link to the new old index in secrets.</li>
+		<li>Make it so that refreshing pages doesn't send an additional request.</li>
+		<li>Add HTTPS.</li>
+		<li>Add a link back to the main page on subpages.</li>
+		<li>Move the inspiration page to the not-blog.</li>
+		<li>Effectivise the TODO list.
+	</ul>
+	<p>
 
-    border-width: 2px;
-    border-color: #212738;
-    border-style: solid;
-
-    background-color: #FFFFFF;
-
-    text-align: center;
-  }
-
-  div.page_header {
-    height: 180px;
-    width: 100%;
-
-    background-color: #F5F6F7;
-  }
-
-  div.page_header span {
-    margin: 15px 0px 0px 50px;
-
-    font-size: 180%;
-    font-weight: bold;
-  }
-
-  div.page_header img {
-    margin: 3px 0px 0px 40px;
-
-    border: 0px 0px 0px;
-  }
-
-  div.banner {
-    padding: 9px 6px 9px 6px;
-    background-color: #E9510E;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 112%;
-    text-align: center;
-    position: absolute;
-    left: 40%;
-    bottom: 30px;
-    width: 20%;
-  }
-
-  div.table_of_contents {
-    clear: left;
-
-    min-width: 200px;
-
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.table_of_contents_item {
-    clear: left;
-
-    width: 100%;
-
-    margin: 4px 0px 0px 0px;
-
-    background-color: #FFFFFF;
-
-    color: #000000;
-    text-align: left;
-  }
-
-  div.table_of_contents_item a {
-    margin: 6px 0px 0px 6px;
-  }
-
-  div.content_section {
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.content_section_text {
-    padding: 4px 8px 4px 8px;
-
-    color: #000000;
-    font-size: 100%;
-  }
-
-  div.content_section_text pre {
-    margin: 8px 0px 8px 0px;
-    padding: 8px 8px 8px 8px;
-
-    border-width: 1px;
-    border-style: dotted;
-    border-color: #000000;
-
-    background-color: #F5F6F7;
-
-    font-style: italic;
-  }
-
-  div.content_section_text p {
-    margin-bottom: 6px;
-  }
-
-  div.content_section_text ul, div.content_section_text li {
-    padding: 4px 8px 4px 16px;
-  }
-
-  div.section_header {
-    padding: 3px 6px 3px 6px;
-
-    background-color: #8E9CB2;
-
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 112%;
-    text-align: center;
-  }
-
-  div.section_header_grey {
-    background-color: #9F9386;
-  }
-
-  .floating_element {
-    position: relative;
-    float: left;
-  }
-
-  div.table_of_contents_item a,
-  div.content_section_text a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  div.table_of_contents_item a:link,
-  div.table_of_contents_item a:visited,
-  div.table_of_contents_item a:active {
-    color: #000000;
-  }
-
-  div.table_of_contents_item a:hover {
-    background-color: #000000;
-
-    color: #FFFFFF;
-  }
-
-  div.content_section_text a:link,
-  div.content_section_text a:visited,
-   div.content_section_text a:active {
-    background-color: #DCDFE6;
-
-    color: #000000;
-  }
-
-  div.content_section_text a:hover {
-    background-color: #000000;
-
-    color: #DCDFE6;
-  }
-
-  div.validator {
-  }
-    </style>
-  </head>
-  <body>
-    <div class="main_page">
-      <div class="page_header floating_element">
-        <img src="../images/ripan-logo-mirrored.png" alt="Ripan Logo"
-             style="width:184px;height:146px;" class="floating_element" />
-        <div>
-          <span style="margin-top: 1.5em;" class="floating_element">
-            lipu pi akesi Ejo
-          </span>
-        </div>
-        <div class="banner">
-          <div id="about"></div>
-          ni li epiku!
-        </div>
-
-      </div>
-      <div class="content_section floating_element">
-        <div class="content_section_text">
-          <p>
-		Disclaimer: I am not particularily good at toki pona, but I'm trying my best, ok?<br>
-		Disclaimer 2: I haven't translated the entire page yet, so be patient.<br>
-		ni li lipu pi akesi Ejo. ni li ijo ijo mute. akesi Ejo sitelen ni.
-		sine ken ilo ni. ijo lili li lon.
-		tenpo kama la mi ijo ijo mute.
-
-                <!--
-		This is the default welcome page of, and pathway to, all the wonderful
-		services provided by <tt>grouse.lol</tt>.
-                It is written and maintained by the eponymous Grouse, who may or may not have
-		written this description.
-                If you can read this page, it means that my server is currently up and running,
-		just begging for you to use it almost however you please. Further down, I might
-		add some links to things that exist on this website, but honestly?
-		There isn't much here yet. So check back in a couple weeks and I might have something
-		to show you.
-		-->
-          </p>
-
-        </div>
-        <div class="section_header">
-          <div id="changes"></div>
-                Content Overview
-        </div>
-        <div class="content_section_text">
-          <p>
-                This website, which is hosted on the Grouserver, is different to most websites
-		you might have seen in the past, in that it is, "totally radical", "based", and "le epic".
-		There are some different parts of the page you might want to visit. For instance, 
-		<a href="api">the "API"</a>
-		has a ton of information about movies to take a gander at. There are also some secrets
-		somewhere, but you'll have to find those for yourself. (It isn't very hard.)
-	</p>
-   	</div>
-
-            <div class="section_header">
-            <div id="docroot"></div>
-                On a more serious note
-        </div>
-
-        <div class="content_section_text">
-            <p>
-		I don't really know what I want to do with this website more than the API, so if you have any
-		suggestions, you can leave them <a href="feedback">here</a> and I'll take them into account.
-		I know it might seem weird to have an option to provide feedback on a website that I just made
-		for myself without anyone in particular in mind, but honestly, I don't really care.
-            </p>
-        </div>
-
-
-            <div class="section_header">
-            <div id="docroot"></div>
-                TODO:
-        </div>
-
-	        <div class="content_section_text">
-            <p>
-		Ok, I lied. There are some things I have planned. I list them below in no particular order.
-		Note that this list is really for me to remember, and I'm simply <i>allowing</i> you to look at it out
-		of the kindness of my heart kthxbye.
-		<ul>
-			<li>Add shows' episodes to the database.</li>
-			<li>Add movies' lengths to the database.</li>
-			<li><a href="inspiration">UI overhaul.</a></li>
-			<ul>
-				<li>Add the third inspiration to the UI-page.</li>
-				<li>Get a coherent style.</li>
-				<li>Get a colour scheme.</li>
-				<li>Add an icon.</li>
-				<li>Don't completely remove the current welcome page style... I like it.</li>
-				<li>For the inspiration page, add maia crimew arson's page, as well as the one she links through the badges.
-			</ul>
-			<li>Find out how to display movies with weird unicode signs.</li>
-			<ul><li>Probably not able to just change some head info in the php file.</li></ul>
-			<li>Move the fonts folder so they can be used globally.</li>
-			<li>Add a disclaimer about the GitHub repo not updating automatically.</li>
-			<li>Add a link to the GitHub repo.</li>
-			<li>Just add some links in general.</li>
-			<li>Add a toki pona language option.</li>
-			<li>Add a UI for the developer tools page.</li>
+                
+	<h2>Not Website Related:</h2>
+	<ul>       
+		<li>Learn how to use Kali Linux.</li>
+                <li>Learn how to use Arch Linux.<font size="1"> I'll use Arch btw.</font></li>
+                <li>Try to learn how to use Eclipse instead of Intellij.</li>
+                <li>Learn some more about internet security.</li>
+                <li>Develop some cool mental illnesses/neurodivergencies.</li>
+                <ul>
+                	<li>DID?</li>
+                        <li>Schizophrenia?</li>
+                        <li>Autism?</li>
+                        <li>Autismophrenia?</li>
 		</ul>
-
-
-            </p>
-        </div>
-
-
-      </div>
-    </div>
-    <div class="validator">
-    </div>
-  </body>
-</html>
+                <li>Stop romanticising mental illnesses.</li>
+                <li>Formally decide whether or not to use the Americanised versions of words that use the letter 'z'.</li>
+                <li>Formally decide whether or not to put punctuation marks within quotation marks.</li>
+                <li>Formally decide whether or not this website really should be hosted on a GitHub linked to your actual name.</li>
+                <li>Go to bed because it's 23:10 and you need to be up by like 06:30 tomorrow.</li>
+                <li>Learn to draw.</li>
+                <li>Learn to play the piano.</li>
+                <li>Buy a bookshelf.</li>
+                <li>Put up the swords.</li>
+                <li>Move.</li>
+                <li>Buy a thing that measures how much electricity this server uses.</li>
+                <li>Get some clients.</li>
+                <li>Get sluttier.</li>
+		<li>get sillier with it :3</li>
+                <li>Ok, seriously go to bed now. It's 00:30.</li>
+                <li>Make a Discord-bot.</li>
+                <li>Make that word-game you've been thinking about for ages.</li>
+		<li>Buy an "outfit"</li>
+		<ul>
+			<li>Get your measurements taken first.</li>
+		</ul>
+		<li>Remove any link from your online self to your "real" self.</li>
+	</ul>
+       
+<html>
