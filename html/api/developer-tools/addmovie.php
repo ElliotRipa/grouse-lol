@@ -3,15 +3,6 @@
 <head>
 <title>Add Movie</title>
 <link rel="stylesheet" href="/css/stylesheet.css">
-<style>
-
-form  { display: table;      }
-p     { display: table-row;  }
-label { display: table-cell; }
-input { display: table-cell; }
-
-</style>
-
 
 </head>
 
