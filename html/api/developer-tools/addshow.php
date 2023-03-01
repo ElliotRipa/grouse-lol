@@ -1,14 +1,49 @@
 <html>
 
-<form action="addshow.php" method="get">
-	Name: <input type="text" name="name"><br>
-	Start Date: <input type="text" name="start_date"><br>
-	End Date: <input type="text" name="end_date"><br>
-	Ended: <input type="text" name="ended"><br>
-	IMDB id: <input type="text" name="imdb_id"><br>
-	IMDB Rating: <input type="text" name="imdb_rating"><br>
-<input type="submit">
+<head>
+<title>Add Show</title>
+<link rel="stylesheet" href="/css/stylesheet.css">
+
+</head>
+
+<div id="header">
+        Add Show!
+</div>
+
+<div class="main">
+
+<form>
+
+        <p>
+                <label for="name">Show Name:</label>
+                <input type="text" name="name">
+        </p>
+	<p>
+		<label for "start_date"> Start Date:</label>
+		<input type="text" name="start_date">
+	</p>
+        <p>
+                <label for="end_name">End Date:</label>
+                <input type="text" name="name">
+        </p>
+	<p>
+		<label for "ended"> Ended:</label>
+		<input type="text" name="ended">
+	</p>
+        <p>
+                <label for="imdb_id">IMDB ID:</label>
+                <input type="text" name="imdb_id">
+        </p>
+	<p>
+		<label for "imdb_rating"> IMDB:</label>
+		<input type="text" name="imdb_rating">
+	</p>
+
+	<input type="submit">
+
 </form>
+
+</div>
 
 </html>
 
@@ -42,6 +77,7 @@ if($name & $start_date){
 $name = stringify($name);
 $start_date = stringify($start_date);
 
+echo "<div class='main'>";
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
@@ -57,6 +93,7 @@ try {
 
 $conn = null;
 }
+echo "</div>";
 
 function stringify($word) {
 
