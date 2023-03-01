@@ -30,14 +30,14 @@
 		<label for "ended"> Ended:</label>
 		<input type="text" name="ended">
 	</p>
+	<p>
+		<label for "imdb_rating"> IMDB Rating:</label>
+		<input type="text" name="imdb_rating">
+	</p>
         <p>
                 <label for="imdb_id">IMDB ID:</label>
                 <input type="text" name="imdb_id">
         </p>
-	<p>
-		<label for "imdb_rating"> IMDB:</label>
-		<input type="text" name="imdb_rating">
-	</p>
 
 	<input type="submit">
 
