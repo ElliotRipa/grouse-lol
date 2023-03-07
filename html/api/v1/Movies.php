@@ -70,6 +70,14 @@ class Movies
 
                 }
 
+		if (isset($params['imdb_id']) ) {
+
+			$filter .=" and imdb_id = :imdb_id";
+
+			$data['imdb_id'] = $params['imdb_id'];
+
+		}
+
 
 
                 $sql .= " where id > 0 $filter";
