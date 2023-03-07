@@ -87,6 +87,7 @@ try {
   // use exec() because no results are returned
   $conn->exec($sql);
   echo "New record created successfully";
+  echoLastMovie($conn);
 } catch(PDOException $e) {
   echo $sql . "<br>" . $e->getMessage();
 }
@@ -101,6 +102,18 @@ function stringify($word) {
 	$output = "'".$word."'";
 
 	return $output;
+}
+
+function echoLastMovie($conn) {
+
+	$stmt = $conn->query("SELECT * FROM movies ORDER BY id DESC LIMIT 1");
+	$result = $stmt->fetch();
+
+	echo "<br>";
+
+	print_r($result);
+
+	return;
 }
 
 ?>
