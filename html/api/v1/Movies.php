@@ -70,6 +70,23 @@ class Movies
 
                 }
 
+		if (isset($params['release_date']) ) {
+
+                    $filter .=" and release_date = :release_date";
+
+                    $data['release_date'] = $params['release_date'];
+
+                }
+
+		//This part doesn't work. Please fix.
+		if (isset($params['imdb_rating']) ) {
+
+                        $filter .=" and imdb_rating = :imdb_rating";
+
+                        $data['imdb_rating'] = $params['imdb_rating'];
+
+                }
+
 		if (isset($params['imdb_id']) ) {
 
 			$filter .=" and imdb_id = :imdb_id";
@@ -77,6 +94,22 @@ class Movies
 			$data['imdb_id'] = $params['imdb_id'];
 
 		}
+
+		if (isset($params['source']) ) {
+
+                        $filter .=" and source = :source";
+
+                        $data['source'] = $params['source'];
+
+                }
+
+		if (isset($params['path']) ) {
+
+                        $filter .=" and path = :path";
+
+                        $data['path'] = $params['path'];
+
+                }
 
 
 
