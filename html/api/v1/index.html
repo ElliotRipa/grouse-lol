@@ -2,30 +2,83 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Movie Time!</title>
+		<title>Grouse's Media Server</title>
 		<link rel="stylesheet" href="/css/stylesheet.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 	</head>
 
 	<body>
 		<div id="header">Grouse's Media Server!</div>
 		
 		<div class="main">
-		<h2>Welcome!</h2>
+		<h1>Howdy!</h1>
+		
+		<p>And welcome to my media server. This is where you'll find information about nearly every culturally significant movie out there.
+		The API is currently in its infancy, so there will likely be bugs galore, if you find one not specified in my TODO list, <a href="/feedback">please let me know</a>
+		So without further ado, what would you like to search for?
 
-		<form action="movies" method="get">
-			<label for="name">Movie name:</label><br>
-			<input type="text" id="name" name="name"><br>
-			
-			<input type="submit" value="Search">
+
+
+		<form id="search_form" action="movies" method="GET">
+
+
+		<p>
+	                <label for="name"><s>Movie ID:</s> (Broken)</label>
+	                <input type="text" name="id">
+	        </p>
+	        <p>
+	                <label for="name">Movie Name:</label>
+	                <input type="text" name="name">
+	        </p>
+	        <p>
+                	<label for="release_date">Release Date:</label>
+                	<input type="text" name="release_date">
+	        </p>
+	        <p>
+	                <label for="imdb_rating"><s>IMDB Rating:</s> (Broken)</label>
+	                <input type="text" name="imdb_rating">
+	        </p>
+	        <p>
+	                <label for="imdb_id">IMDB ID:</label>
+	                <input type="text" name="imdb_id">
+	        </p>
+	        <p>
+	                <label for="source">Source:</label>
+	                <input type="text" name="source">
+	        </p>
+	        <p>
+	                <label for="path">Path:</label>
+	                <input type="text" name="path">
+	        </p>
+		<p>
+	                <label for="path">Length:</label>
+	                <input type="text" name="length">
+	        </p>
+
+        	<input type="submit" value="Search">
 
 		</form>
 
-		<form action="movies" method="get">
-			<label for="id">Movie ID (Broken):</label><br>
-			<input type="text" id="id" name="id"><br>
+		<script>
+		$(document).ready(function(){
+		    $("form").submit(function(){
+		        $("input").each(function(index, obj){
+		            if($(obj).val() == "") {
+		                $(obj).remove();
+		            }
+		        });
+		    });
+		});
+		</script>
 
-			<input type="submit" value="Search">
 		</div>
 	</body>
 
 </html>
+
+
+
+
+
+
+
