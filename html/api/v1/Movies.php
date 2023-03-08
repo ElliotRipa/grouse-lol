@@ -111,6 +111,14 @@ class Movies
 
                 }
 
+		if (isset($params['length']) ) {
+
+                        $filter .=" and length = :length";
+
+                        $data['length'] = $params['length'];
+
+                }
+
 
 
                 $sql .= " where id > 0 $filter";
