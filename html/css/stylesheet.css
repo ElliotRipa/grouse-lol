@@ -102,6 +102,38 @@ div.button-container {
 	background-color: transparent;
 }
 
+div.error-alert {
+
+	padding: 20px;
+	background-color: #f44336; /* Red */
+	margin-bottom: 15px;
+}
+
+div.success-alert {
+
+	padding: 20px;
+        background-color: #0FAA6D; /* Green */
+        margin-bottom: 15px;
+}
+
+.close-button {
+
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.close-button:hover {
+
+	color: black;
+}
+
+
 img.fullsize {
 	display: block;
 	width: 95%;
