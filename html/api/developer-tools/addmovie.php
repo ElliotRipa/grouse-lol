@@ -45,6 +45,19 @@
 
 </div>
 
+<script>
+var close = document.getElementsByClassName("closebtn");
+var i;
+
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function(){
+    var div = this.parentElement;
+    div.style.opacity = "0";
+    setTimeout(function(){ div.style.display = "none"; }, 600);
+  }
+}
+</script>
+
 </html>
 
 <?php
@@ -77,7 +90,7 @@ if($name & $release_date){
 $name = stringify($name);
 $release_date = stringify($release_date);
 
-echo "<div class='main'>";
+// echo "<div class='main'>";
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
@@ -86,9 +99,11 @@ try {
   VALUES ($name, $release_date".$specifiedValues.")";
   // use exec() because no results are returned
   $conn->exec($sql);
+  echo "<div class='success-alert'>";
   echo "New record created successfully";
   echoLastMovie($conn);
 } catch(PDOException $e) {
+  echo "<div class='error-alert'>";
   echo $sql . "<br>" . $e->getMessage();
 }
 
