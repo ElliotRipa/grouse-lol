@@ -104,16 +104,18 @@ div.button-container {
 
 div.error-alert {
 
-	padding: 20px;
+	padding: 10px;
 	background-color: #f44336; /* Red */
 	margin-bottom: 15px;
+	width: 75vw;
 }
 
 div.success-alert {
 
-	padding: 20px;
+	padding: 10px;
         background-color: #0FAA6D; /* Green */
         margin-bottom: 15px;
+	width: 75vw;
 }
 
 .close-button {
