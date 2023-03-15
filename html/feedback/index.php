@@ -19,7 +19,7 @@
                 Well, looks like I beat you to it.</p>
 
                 <p>In all seriousness though, I welcome all feedback. If you're looking to
-                recommend a movie to me, then I suggest going to this <a href="Okay so I haven't made that website yet, but I'm working on it, trust me">link</a>
+                recommend a movie to me, then I suggest going to this <a href="suggest-movie.php">link</a>
 
 
 		<form action="index.php" method="get">
