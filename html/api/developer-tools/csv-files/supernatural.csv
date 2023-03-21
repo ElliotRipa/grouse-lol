@@ -1,0 +1,328 @@
+Title,Released,Season,Episode,imdbRating,imdbID,Show,Downloaded?
+Pilot,2005-09-13,1,1,8.7,tt0713618,Supernatural,Y
+Wendigo,2005-09-20,1,2,8,tt0713624,Supernatural,Y
+Dead in the Water,2005-09-27,1,3,8.1,tt0713613,Supernatural,Y
+Phantom Traveler,2005-10-04,1,4,8.2,tt0713617,Supernatural,Y
+Bloody Mary,2005-10-11,1,5,8.4,tt0713611,Supernatural,Y
+Skin,2005-10-18,1,6,8.4,tt0713622,Supernatural,Y
+Hook Man,2005-10-25,1,7,8,tt0713615,Supernatural,Y
+Bugs,2005-11-08,1,8,7,tt0713612,Supernatural,Y
+Home,2005-11-15,1,9,8.9,tt0713623,Supernatural,Y
+Asylum,2005-11-22,1,10,8.5,tt0713610,Supernatural,Y
+Scarecrow,2006-01-10,1,11,8.7,tt0713620,Supernatural,Y
+Faith,2006-01-17,1,12,8.9,tt0713614,Supernatural,Y
+Route 666,2006-01-31,1,13,7.4,tt0713619,Supernatural,Y
+Nightmare,2006-02-07,1,14,8.3,tt0713616,Supernatural,Y
+The Benders,2006-02-14,1,15,8.3,tt0757750,Supernatural,Y
+Shadow,2006-02-28,1,16,8.6,tt0713621,Supernatural,Y
+Hell House,2006-03-30,1,17,8.4,tt0763064,Supernatural,Y
+Something Wicked,2006-04-06,1,18,8.7,tt0763065,Supernatural,Y
+Provenance,2006-04-13,1,19,8.8,tt0761316,Supernatural,Y
+Dead Man's Blood,2006-04-20,1,20,8.5,tt0767486,Supernatural,Y
+Salvation,2006-04-27,1,21,8.9,tt0772002,Supernatural,Y
+Devil's Trap,2006-05-04,1,22,9.3,tt0775325,Supernatural,Y
+In My Time of Dying,2006-09-28,2,1,9.3,tt0829063,Supernatural,Y
+Everybody Loves a Clown,2006-10-05,2,2,8.2,tt0829062,Supernatural,Y
+Bloodlust,2006-10-12,2,3,8.3,tt0835248,Supernatural,Y
+Children Shouldn't Play with Dead Things,2006-10-19,2,4,8.1,tt0837741,Supernatural,Y
+Simon Said,2006-10-26,2,5,8.6,tt0851031,Supernatural,Y
+No Exit,2006-11-02,2,6,8.4,tt0855641,Supernatural,Y
+The Usual Suspects,2006-11-09,2,7,8.7,tt0859555,Supernatural,Y
+Crossroad Blues,2006-11-16,2,8,8.8,tt0868625,Supernatural,Y
+Croatoan,2006-12-07,2,9,8.8,tt0878590,Supernatural,Y
+Hunted,2007-01-11,2,10,8.5,tt0883872,Supernatural,Y
+Playthings,2007-01-18,2,11,8.5,tt0890836,Supernatural,Y
+Nightshifter,2007-01-25,2,12,9,tt0942145,Supernatural,Y
+Houses of the Holy,2007-02-01,2,13,8.1,tt0921622,Supernatural,Y
+Born Under a Bad Sign,2007-02-08,2,14,8.8,tt0940441,Supernatural,Y
+Tall Tales,2007-02-15,2,15,9.2,tt0939444,Supernatural,Y
+Roadkill,2007-03-15,2,16,8.9,tt0942786,Supernatural,Y
+Heart,2007-03-22,2,17,8.8,tt0959976,Supernatural,Y
+Hollywood Babylon,2007-04-19,2,18,8.6,tt0964436,Supernatural,Y
+Folsom Prison Blues,2007-04-26,2,19,8.7,tt1000536,Supernatural,Y
+What Is and What Should Never Be,2007-05-03,2,20,9.4,tt0987715,Supernatural,Y
+All Hell Breaks Loose: Part 1,2007-05-10,2,21,9.2,tt0987713,Supernatural,Y
+All Hell Breaks Loose: Part 2,2007-05-17,2,22,9.5,tt0987714,Supernatural,Y
+The Magnificent Seven,2007-10-04,3,1,8.6,tt1032129,Supernatural,Y
+The Kids Are Alright,2007-10-11,3,2,8.7,tt1032134,Supernatural,Y
+Bad Day at Black Rock,2007-10-18,3,3,9.3,tt1107710,Supernatural,Y
+Sin City,2007-10-25,3,4,8.4,tt1032135,Supernatural,Y
+Bedtime Stories,2007-11-01,3,5,8.4,tt1032137,Supernatural,Y
+Red Sky at Morning,2007-11-08,3,6,8.1,tt1032138,Supernatural,Y
+Fresh Blood,2007-11-15,3,7,8.5,tt1032139,Supernatural,Y
+A Very Supernatural Christmas,2007-12-13,3,8,8.8,tt1032140,Supernatural,Y
+Malleus Maleficarum,2008-01-31,3,9,8.5,tt1032141,Supernatural,Y
+Dream a Little Dream of Me,2008-02-07,3,10,8.5,tt1032130,Supernatural,Y
+Mystery Spot,2008-02-14,3,11,9.5,tt1032132,Supernatural,Y
+Jus in Bello,2008-02-21,3,12,9.4,tt1032131,Supernatural,Y
+Ghostfacers,2008-04-24,3,13,7.7,tt1032133,Supernatural,Y
+Long Distance Call,2008-05-01,3,14,8,tt1206073,Supernatural,Y
+Time Is on My Side,2008-05-08,3,15,8.5,tt1222593,Supernatural,Y
+No Rest for the Wicked,2008-05-15,3,16,9.4,tt1222594,Supernatural,Y
+Lazarus Rising,2008-09-18,4,1,9.5,tt1222595,Supernatural,Y
+"Are You There, God? It's Me, Dean Winchester",2008-09-25,4,2,8.7,tt1222606,Supernatural,Y
+In the Beginning,2008-10-02,4,3,9.3,tt1222611,Supernatural,Y
+Metamorphosis,2008-10-09,4,4,8.2,tt1222612,Supernatural,Y
+Monster Movie,2008-10-16,4,5,8.5,tt1222610,Supernatural,Y
+Yellow Fever,2008-10-23,4,6,9.3,tt1222613,Supernatural,Y
+"It's the Great Pumpkin, Sam Winchester",2008-10-30,4,7,8.5,tt1222614,Supernatural,Y
+Wishful Thinking,2008-11-06,4,8,8.8,tt1222615,Supernatural,Y
+I Know What You Did Last Summer,2008-11-13,4,9,8.8,tt1222616,Supernatural,Y
+Heaven and Hell,2008-11-20,4,10,8.9,tt1222596,Supernatural,Y
+Family Remains,2009-01-15,4,11,8.1,tt1222597,Supernatural,Y
+Criss Angel Is a Douche Bag,2009-01-22,4,12,8.1,tt1222598,Supernatural,Y
+After School Special,2009-01-29,4,13,8.8,tt1222599,Supernatural,Y
+Sex and Violence,2009-02-05,4,14,8.5,tt1222600,Supernatural,Y
+Death Takes a Holiday,2009-03-12,4,15,8.7,tt1222601,Supernatural,Y
+On the Head of a Pin,2009-03-19,4,16,9.2,tt1222602,Supernatural,Y
+It's a Terrible Life,2009-03-26,4,17,8.8,tt1222603,Supernatural,Y
+The Monster at the End of This Book,2009-04-02,4,18,9.3,tt1222604,Supernatural,Y
+Jump the Shark,2009-04-23,4,19,8.3,tt1222605,Supernatural,Y
+The Rapture,2009-04-30,4,20,8.8,tt1222607,Supernatural,Y
+When the Levee Breaks,2009-05-07,4,21,8.7,tt1222608,Supernatural,Y
+Lucifer Rising,2009-05-14,4,22,9.4,tt1222609,Supernatural,Y
+Sympathy for the Devil,2009-09-10,5,1,8.8,tt1461906,Supernatural,Y
+"Good God, Y'All",2009-09-17,5,2,8.7,tt1464088,Supernatural,Y
+Free to Be You and Me,2009-09-24,5,3,8.6,tt1464089,Supernatural,Y
+The End,2009-10-01,5,4,9.2,tt1488984,Supernatural,Y
+Fallen Idols,2009-10-08,5,5,8.1,tt1488983,Supernatural,Y
+I Believe the Children Are Our Future,2009-10-15,5,6,8.6,tt1506849,Supernatural,Y
+The Curious Case of Dean Winchester,2009-10-29,5,7,8.8,tt1507550,Supernatural,Y
+Changing Channels,2009-11-05,5,8,9.7,tt1511910,Supernatural,Y
+The Real Ghostbusters,2009-11-12,5,9,8.9,tt1533530,Supernatural,Y
+Abandon All Hope,2009-11-19,5,10,9.3,tt1532469,Supernatural,Y
+"Sam, Interrupted",2010-01-21,5,11,8.6,tt1543420,Supernatural,Y
+Swap Meat,2010-01-28,5,12,8.3,tt1552579,Supernatural,Y
+The Song Remains the Same,2010-02-04,5,13,9.1,tt1541419,Supernatural,Y
+My Bloody Valentine,2010-02-11,5,14,8.9,tt1588681,Supernatural,Y
+Dead Men Don't Wear Plaid,2010-03-25,5,15,8.6,tt1588682,Supernatural,Y
+Dark Side of the Moon,2010-04-01,5,16,8.9,tt1588256,Supernatural,Y
+99 Problems,2010-04-08,5,17,8.5,tt1588255,Supernatural,Y
+Point of No Return,2010-04-15,5,18,9,tt1594854,Supernatural,Y
+Hammer of the Gods,2010-04-22,5,19,9.1,tt1598673,Supernatural,Y
+The Devil You Know,2010-04-29,5,20,8.8,tt1599805,Supernatural,Y
+Two Minutes to Midnight,2010-05-06,5,21,9.3,tt1626754,Supernatural,Y
+Swan Song,2010-05-13,5,22,9.7,tt1626753,Supernatural,Y
+Exile on Main St.,2010-09-24,6,1,7.9,tt1627706,Supernatural,Y
+Two and a Half Men,2010-10-01,6,2,8,tt1627717,Supernatural,Y
+The Third Man,2010-10-08,6,3,8.2,tt1627721,Supernatural,Y
+Weekend at Bobby's,2010-10-15,6,4,9.2,tt1627722,Supernatural,Y
+Live Free or Twihard,2010-10-22,6,5,8.5,tt1627724,Supernatural,Y
+You Can't Handle the Truth,2010-10-29,6,6,8.5,tt1627723,Supernatural,Y
+Family Matters,2010-11-05,6,7,8.1,tt1627725,Supernatural,Y
+All Dogs Go to Heaven,2010-11-12,6,8,7.9,tt1627726,Supernatural,Y
+Clap Your Hands If You Believe,2010-11-19,6,9,8.5,tt1627727,Supernatural,Y
+Caged Heat,2010-12-03,6,10,8.6,tt1627707,Supernatural,Y
+Appointment in Samarra,2010-12-10,6,11,9.2,tt1627708,Supernatural,Y
+Like a Virgin,2011-02-04,6,12,8.4,tt1627709,Supernatural,Y
+Unforgiven,2011-02-11,6,13,8.1,tt1627710,Supernatural,Y
+Mannequin 3: The Reckoning,2011-02-18,6,14,7.7,tt1627711,Supernatural,Y
+The French Mistake,2011-02-25,6,15,9.6,tt1627712,Supernatural,Y
+And Then There Were None,2011-03-04,6,16,8.4,tt1627713,Supernatural,Y
+My Heart Will Go On,2011-04-15,6,17,8.7,tt1627715,Supernatural,Y
+Frontierland,2011-04-22,6,18,9,tt1627714,Supernatural,Y
+Mommy Dearest,2011-04-29,6,19,8.6,tt1627716,Supernatural,Y
+The Man Who Would Be King,2011-05-06,6,20,8.9,tt1627718,Supernatural,Y
+Let It Bleed,2011-05-20,6,21,8.6,tt1627719,Supernatural,Y
+The Man Who Knew Too Much,2011-05-20,6,22,9,tt1864037,Supernatural,Y
+Meet the New Boss,2011-09-23,7,1,9,tt1995102,Supernatural,Y
+"Hello, Cruel World",2011-09-30,7,2,8.6,tt1995113,Supernatural,Y
+The Girl Next Door,2011-10-07,7,3,8.2,tt1995118,Supernatural,Y
+Defending Your Life,2011-10-14,7,4,8.1,tt1995119,Supernatural,Y
+"Shut Up, Dr. Phil",2011-10-21,7,5,8.2,tt1995120,Supernatural,Y
+Slash Fiction,2011-10-28,7,6,8.8,tt1995121,Supernatural,Y
+The Mentalists,2011-11-04,7,7,8.1,tt1995122,Supernatural,Y
+"Season Seven, Time for a Wedding!",2011-11-11,7,8,8,tt1995123,Supernatural,Y
+How to Win Friends and Influence Monsters,2011-11-18,7,9,8.5,tt1995124,Supernatural,Y
+Death's Door,2011-12-02,7,10,9.3,tt1995103,Supernatural,Y
+Adventures in Babysitting,2012-01-06,7,11,8.1,tt1995104,Supernatural,Y
+Time After Time,2012-01-13,7,12,8.9,tt1995105,Supernatural,Y
+The Slice Girls,2012-02-03,7,13,8.2,tt1995106,Supernatural,Y
+Plucky Pennywhistle's Magical Menagerie,2012-02-10,7,14,8.3,tt1995107,Supernatural,Y
+Repo Man,2012-02-17,7,15,8.3,tt1995108,Supernatural,Y
+Out with the Old,2012-03-16,7,16,8.3,tt1995109,Supernatural,Y
+The Born-Again Identity,2012-03-23,7,17,9,tt1995110,Supernatural,Y
+"Party On, Garth",2012-03-30,7,18,8.6,tt1995111,Supernatural,Y
+Of Grave Importance,2012-04-20,7,19,8.5,tt1995112,Supernatural,Y
+The Girl with the Dungeons and Dragons Tattoo,2012-04-27,7,20,9.1,tt1995114,Supernatural,Y
+Reading is Fundamental,2012-05-04,7,21,8.6,tt1995115,Supernatural,Y
+There Will Be Blood,2012-05-11,7,22,8.6,tt1995116,Supernatural,Y
+Survival of the Fittest,2012-05-18,7,23,8.9,tt1995117,Supernatural,Y
+We Need to Talk About Kevin,2012-10-03,8,1,8.3,tt2373078,Supernatural,Y
+"What's Up, Tiger Mommy?",2012-10-10,8,2,8.3,tt2404088,Supernatural,Y
+Heartache,2012-10-17,8,3,8.1,tt2293862,Supernatural,Y
+Bitten,2012-10-24,8,4,7.2,tt2323362,Supernatural,Y
+Blood Brother,2012-10-31,8,5,8.1,tt2388382,Supernatural,Y
+Southern Comfort,2012-11-07,8,6,8,tt2372414,Supernatural,Y
+A Little Slice of Kevin,2012-11-14,8,7,8.4,tt2425360,Supernatural,Y
+Hunteri Heroici,2012-11-28,8,8,8.8,tt2426140,Supernatural,Y
+Citizen Fang,2012-12-05,8,9,8.3,tt2426138,Supernatural,Y
+Torn and Frayed,2013-01-16,8,10,8.2,tt2425378,Supernatural,Y
+LARP and the Real Girl,2013-01-23,8,11,8.8,tt2498912,Supernatural,Y
+As Time Goes By,2013-01-30,8,12,9.1,tt2506990,Supernatural,Y
+Everybody Hates Hitler,2013-02-06,8,13,8.6,tt2578700,Supernatural,Y
+Trial and Error,2013-02-13,8,14,8.6,tt2503932,Supernatural,Y
+Man's Best Friend with Benefits,2013-02-20,8,15,7.5,tt2578704,Supernatural,Y
+Remember the Titans,2013-02-27,8,16,7.8,tt2578708,Supernatural,Y
+Goodbye Stranger,2013-03-20,8,17,8.6,tt2692382,Supernatural,Y
+Freaks and Geeks,2013-03-27,8,18,7.5,tt2621384,Supernatural,Y
+Taxi Driver,2013-04-03,8,19,8.7,tt2699592,Supernatural,Y
+Pac-Man Fever,2013-04-24,8,20,8.5,tt2699596,Supernatural,Y
+The Great Escapist,2013-05-01,8,21,8.6,tt2734858,Supernatural,Y
+Clip Show,2013-05-08,8,22,8.6,tt2805138,Supernatural,Y
+Sacrifice,2013-05-15,8,23,9.3,tt2805140,Supernatural,Y
+I Think I'm Gonna Like It Here,2013-10-08,9,1,8.8,tt2702688,Supernatural,Y
+Devil May Care,2013-10-15,9,2,8.5,tt3025548,Supernatural,Y
+I'm No Angel,2013-10-22,9,3,8.3,tt3097142,Supernatural,Y
+Slumber Party,2013-10-29,9,4,8.1,tt3098422,Supernatural,Y
+Dog Dean Afternoon,2013-11-05,9,5,8.6,tt3112660,Supernatural,Y
+Heaven Can't Wait,2013-11-12,9,6,8.2,tt3112656,Supernatural,Y
+Bad Boys,2013-11-19,9,7,8.4,tt3141550,Supernatural,Y
+Rock and a Hard Place,2013-11-26,9,8,8,tt3158272,Supernatural,Y
+Holy Terror,2013-12-03,9,9,8.7,tt3158274,Supernatural,Y
+Road Trip,2014-01-14,9,10,8.9,tt3158276,Supernatural,Y
+First Born,2014-01-21,9,11,9.2,tt3158278,Supernatural,Y
+Sharp Teeth,2014-01-28,9,12,7.7,tt3158284,Supernatural,Y
+The Purge,2014-02-04,9,13,7.9,tt3158282,Supernatural,Y
+Captives,2014-02-25,9,14,8.1,tt3182872,Supernatural,Y
+#thinman,2014-03-04,9,15,7.5,tt3182874,Supernatural,Y
+Blade Runners,2014-03-18,9,16,8.4,tt3182880,Supernatural,Y
+Mother's Little Helper,2014-03-25,9,17,8.7,tt3182878,Supernatural,Y
+Meta Fiction,2014-04-15,9,18,8.2,tt3182886,Supernatural,Y
+Alex Annie Alexis Ann,2014-04-22,9,19,7.7,tt3182884,Supernatural,Y
+Bloodlines,2014-04-29,9,20,5.9,tt3182892,Supernatural,Y
+King of the Damned,2014-05-06,9,21,8.7,tt3182890,Supernatural,Y
+Stairway to Heaven,2014-05-13,9,22,8.4,tt3182896,Supernatural,Y
+Do You Believe in Miracles,2014-05-20,9,23,9.3,tt3182894,Supernatural,Y
+Black,2014-10-07,10,1,8.3,tt3532628,Supernatural,Y
+Reichenbach,2014-10-14,10,2,8.7,tt3831300,Supernatural,Y
+Soul Survivor,2014-10-21,10,3,8.3,tt3831310,Supernatural,Y
+Paper Moon,2014-10-28,10,4,7.3,tt3845906,Supernatural,Y
+Fan Fiction,2014-11-11,10,5,9.5,tt3845910,Supernatural,Y
+Ask Jeeves,2014-11-18,10,6,8.1,tt3860118,Supernatural,Y
+"Girls, Girls, Girls",2014-11-25,10,7,8.2,tt3860122,Supernatural,Y
+Hibbing 911,2014-12-02,10,8,7.9,tt3997488,Supernatural,Y
+The Things We Left Behind,2014-12-09,10,9,8.1,tt3997492,Supernatural,Y
+The Hunter Games,2015-01-20,10,10,7.8,tt3997490,Supernatural,Y
+There's No Place Like Home,2015-01-27,10,11,8,tt4274892,Supernatural,Y
+About a Boy,2015-02-03,10,12,8.7,tt4344320,Supernatural,Y
+Halt & Catch Fire,2015-02-10,10,13,7.4,tt4344332,Supernatural,Y
+The Executioner's Song,2015-02-17,10,14,8.8,tt4292452,Supernatural,Y
+The Things They Carried,2015-03-18,10,15,8.1,tt4333228,Supernatural,Y
+Paint It Black,2015-03-25,10,16,7.3,tt4427940,Supernatural,Y
+Inside Man,2015-04-01,10,17,8.6,tt4443976,Supernatural,Y
+Book of the Damned,2015-04-15,10,18,8.8,tt4489472,Supernatural,Y
+The Werther Project,2015-04-22,10,19,8.6,tt4489474,Supernatural,Y
+Angel Heart,2015-04-29,10,20,8.2,tt4489476,Supernatural,Y
+Dark Dynasty,2015-05-06,10,21,7.3,tt4489482,Supernatural,Y
+The Prisoner,2015-05-13,10,22,9.1,tt4489484,Supernatural,Y
+Brother's Keeper,2015-05-20,10,23,9.1,tt4489486,Supernatural,Y
+"Out of the Darkness, Into the Fire",2015-10-07,11,1,8.6,tt4346788,Supernatural,Y
+Form and Void,2015-10-14,11,2,8.7,tt4857906,Supernatural,Y
+The Bad Seed,2015-10-21,11,3,8.2,tt4857918,Supernatural,Y
+Baby,2015-10-28,11,4,9.6,tt4995876,Supernatural,Y
+Thin Lizzie,2015-11-04,11,5,8.5,tt5056820,Supernatural,Y
+Our Little World,2015-11-11,11,6,8.8,tt5056822,Supernatural,Y
+Plush,2015-11-18,11,7,8.3,tt5056828,Supernatural,Y
+Just My Imagination,2015-12-02,11,8,9,tt5056832,Supernatural,Y
+"O Brother, Where Art Thou?",2015-12-09,11,9,9.5,tt5056836,Supernatural,Y
+The Devil in the Details,2016-01-20,11,10,9.1,tt5087242,Supernatural,Y
+Into the Mystic,2016-01-27,11,11,8.6,tt5239780,Supernatural,Y
+Don't You Forget About Me,2016-02-03,11,12,8.4,tt5265450,Supernatural,Y
+Love Hurts,2016-02-10,11,13,8.2,tt5352054,Supernatural,Y
+The Vessel,2016-02-17,11,14,8.8,tt5390282,Supernatural,Y
+Beyond the Mat,2016-02-24,11,15,7.9,tt5432122,Supernatural,Y
+Safe House,2016-03-23,11,16,9,tt5432150,Supernatural,Y
+Red Meat,2016-03-30,11,17,8.5,tt5432156,Supernatural,Y
+Hell's Angel,2016-04-06,11,18,8.8,tt5539106,Supernatural,Y
+The Chitters,2016-04-27,11,19,7.8,tt5538526,Supernatural,Y
+Don't Call Me Shurley,2016-05-04,11,20,9.5,tt5547512,Supernatural,Y
+All in the Family,2016-05-11,11,21,8.8,tt5547522,Supernatural,Y
+We Happy Few,2016-05-18,11,22,8.8,tt5547530,Supernatural,Y
+Alpha and Omega,2016-05-25,11,23,8.5,tt5547538,Supernatural,Y
+Keep Calm and Carry On,2016-10-13,12,1,8.4,tt5540416,Supernatural,Y
+Mamma Mia,2016-10-20,12,2,8.2,tt5669110,Supernatural,Y
+The Foundry,2016-10-27,12,3,8,tt5669112,Supernatural,Y
+American Nightmare,2016-11-03,12,4,8.4,tt5669114,Supernatural,Y
+The One You've Been Waiting For,2016-11-10,12,5,7.7,tt5669118,Supernatural,Y
+Celebrating the Life of Asa Fox,2016-11-17,12,6,8.5,tt5669116,Supernatural,Y
+Rock Never Dies,2016-12-01,12,7,7.5,tt5669120,Supernatural,Y
+LOTUS,2016-12-08,12,8,8,tt5669122,Supernatural,Y
+First Blood,2017-01-26,12,9,8.2,tt5669126,Supernatural,Y
+Lily Sunder Has Some Regrets,2017-02-02,12,10,8.2,tt5669124,Supernatural,Y
+Regarding Dean,2017-02-09,12,11,9,tt5669128,Supernatural,Y
+Stuck in the Middle (With You),2017-02-16,12,12,9,tt5669130,Supernatural,Y
+Family Feud,2017-02-23,12,13,7.7,tt5669132,Supernatural,Y
+The Raid,2017-03-02,12,14,8.5,tt5669134,Supernatural,Y
+Somewhere Between Heaven and Hell,2017-03-09,12,15,8.2,tt5669138,Supernatural,Y
+Ladies Drink Free,2017-03-30,12,16,8.1,tt5669136,Supernatural,Y
+The British Invasion,2017-04-06,12,17,8.2,tt5669140,Supernatural,Y
+The Memory Remains,2017-04-13,12,18,8,tt5669142,Supernatural,Y
+The Future,2017-04-27,12,19,8.6,tt5669144,Supernatural,Y
+Twigs & Twine & Tasha Banes,2017-05-04,12,20,8.3,tt5669146,Supernatural,Y
+There's Something About Mary,2017-05-11,12,21,6.9,tt5669148,Supernatural,Y
+Who We Are,2017-05-18,12,22,9,tt5669150,Supernatural,Y
+All Along the Watchtower,2017-05-18,12,23,8.9,tt5669152,Supernatural,Y
+Lost and Found,2017-10-12,13,1,9,tt6403432,Supernatural,Y
+The Rising Son,2017-10-19,13,2,8.6,tt6746126,Supernatural,Y
+Patience,2017-10-26,13,3,8.2,tt6746128,Supernatural,Y
+The Big Empty,2017-11-02,13,4,8.6,tt6746132,Supernatural,Y
+Advanced Thanatology,2017-11-09,13,5,8.8,tt6746134,Supernatural,Y
+Tombstone,2017-11-16,13,6,8.3,tt6746140,Supernatural,Y
+War of the Worlds,2017-11-23,13,7,8.4,tt6746146,Supernatural,Y
+The Scorpion and the Frog,2017-11-30,13,8,8.4,tt6746148,Supernatural,Y
+The Bad Place,2017-12-07,13,9,8.9,tt6746160,Supernatural,Y
+Wayward Sisters,2018-01-18,13,10,8.3,tt6746156,Supernatural,Y
+Breakdown,2018-01-25,13,11,8.4,tt6746164,Supernatural,Y
+Various & Sundry Villains,2018-02-01,13,12,8.2,tt6746170,Supernatural,Y
+Devil's Bargain,2018-02-08,13,13,8.3,tt6746168,Supernatural,Y
+Good Intentions,2018-03-01,13,14,8.9,tt6746174,Supernatural,Y
+A Most Holy Man,2018-03-08,13,15,8.2,tt6746182,Supernatural,Y
+ScoobyNatural,2018-03-29,13,16,9.6,tt6746190,Supernatural,Y
+The Thing,2018-04-05,13,17,8.7,tt6746194,Supernatural,Y
+Bring 'em Back Alive,2018-04-12,13,18,8.6,tt6746200,Supernatural,Y
+Funeralia,2018-04-19,13,19,8.2,tt6746208,Supernatural,Y
+Unfinished Business,2018-04-26,13,20,8.2,tt6746210,Supernatural,Y
+Beat the Devil,2018-05-03,13,21,8.9,tt6746216,Supernatural,Y
+Exodus,2018-05-10,13,22,8.3,tt6746226,Supernatural,Y
+Let the Good Times Roll,2018-05-17,13,23,8.9,tt6746224,Supernatural,Y
+Stranger in a Strange Land,2018-10-11,14,1,8.1,tt8226756,Supernatural,Y
+Gods and Monsters,2018-10-18,14,2,8,tt8408494,Supernatural,Y
+The Scar,2018-10-25,14,3,7.9,tt8408498,Supernatural,Y
+Mint Condition,2018-11-01,14,4,8.8,tt8408504,Supernatural,Y
+Nightmare Logic,2018-11-08,14,5,8.1,tt8408508,Supernatural,Y
+Optimism,2018-11-15,14,6,8.1,tt8408506,Supernatural,Y
+Unhuman Nature,2018-11-29,14,7,8.2,tt8408502,Supernatural,Y
+Byzantium,2018-12-06,14,8,8.5,tt8408500,Supernatural,Y
+The Spear,2018-12-13,14,9,8.2,tt8408512,Supernatural,Y
+Nihilism,2019-01-17,14,10,8.7,tt8408510,Supernatural,Y
+Damaged Goods,2019-01-24,14,11,8.2,tt8962434,Supernatural,Y
+Prophet and Loss,2019-01-31,14,12,8.2,tt8962440,Supernatural,Y
+Lebanon,2019-02-07,14,13,9.4,tt8962446,Supernatural,Y
+Ouroboros,2019-03-07,14,14,8.6,tt9271138,Supernatural,Y
+Peace of Mind,2019-03-14,14,15,8.6,tt9271140,Supernatural,Y
+Don't Go in the Woods,2019-03-21,14,16,8.1,tt9271142,Supernatural,Y
+Game Night,2019-04-04,14,17,7.8,tt9271146,Supernatural,Y
+Absence,2019-04-11,14,18,7.8,tt9271148,Supernatural,Y
+Jack in the Box,2019-04-18,14,19,8.1,tt9271150,Supernatural,Y
+Moriah,2019-04-25,14,20,9.3,tt9271152,Supernatural,Y
+Back and to the Future,2019-10-10,15,1,8.3,tt9695548,Supernatural,Y
+Raising Hell,2019-10-17,15,2,7.5,tt10067710,Supernatural,Y
+The Rupture,2019-10-24,15,3,8.6,tt10250608,Supernatural,Y
+Atomic Monsters,2019-11-07,15,4,8.6,tt10067734,Supernatural,Y
+Proverbs 17:3,2019-11-14,15,5,8.8,tt10067742,Supernatural,Y
+Golden Time,2019-11-21,15,6,8.3,tt10067744,Supernatural,Y
+Last Call,2019-12-05,15,7,8.4,tt10085356,Supernatural,Y
+"Our Father, Who Aren't in Heaven",2019-12-12,15,8,8.7,tt10717880,Supernatural,Y
+The Trap,2020-01-16,15,9,8.6,tt10717886,Supernatural,Y
+The Heroes' Journey,2020-01-23,15,10,8.2,tt10717892,Supernatural,Y
+The Gamblers,2020-01-30,15,11,8.5,tt10717964,Supernatural,Y
+Galaxy Brain,2020-03-16,15,12,7.6,tt10717906,Supernatural,Y
+Destiny's Child,2020-03-23,15,13,8.4,tt10717912,Supernatural,Y
+Last Holiday,2020-10-08,15,14,8.7,tt10717914,Supernatural,Y
+Gimme Shelter,2020-10-15,15,15,7.6,tt10717918,Supernatural,Y
+Drag Me Away (From You),2020-10-22,15,16,7.3,tt10717922,Supernatural,Y
+Unity,2020-10-29,15,17,8.7,tt10717928,Supernatural,Y
+Despair,2020-11-05,15,18,9.1,tt10717930,Supernatural,Y
+Inherit the Earth,2020-11-12,15,19,8.4,tt10717932,Supernatural,Y
+Carry On,2020-11-19,15,20,6.7,tt10073984,Supernatural,Y
