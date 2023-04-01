@@ -37,6 +37,12 @@ a {
 	color: #D521A9;
 }
 
+a.hidden {
+	color: white;
+	cursor: default;
+	text-decoration: none;
+}
+
 /* The following lines were copy-pasted (stolen) from https://hyena.network/geocity/css/neocity.style.css */
 .rainbow {
 	background: -webkit-gradient(linear, left top, right top, from(#ff0000), color-stop(#ffa600), color-stop(#fff500), color-stop(#06ff00), color-stop(#00c9ff), color-stop(#2300ff), color-stop(#ff00fa), to(#ff0000));
