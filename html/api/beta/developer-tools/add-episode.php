@@ -13,7 +13,8 @@
 <div class="main">
 
 NOTE!<br>
-This adds into the new version of the database.
+This adds into the new version of the database.<br>
+Also, no I don't know why that field is doing that either.
 
 <form>
 
