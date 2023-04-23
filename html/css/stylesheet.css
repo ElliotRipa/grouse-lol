@@ -151,6 +151,15 @@ img.fullsize {
 	margin-right: auto;
 }
 
+img.halfsize {
+	display: block;
+	width: 42%;
+	height:auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 input[type=button], input[type=submit], input[type=reset] {
 	background-color: #0f824a;
 	color: #ffff;
