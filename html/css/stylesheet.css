@@ -108,6 +108,23 @@ div.button-container {
 	background-color: transparent;
 }
 
+div.box-container {
+	
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+img.box {
+
+	width: 512px;
+	height: 512px;
+	border: 1px solid black;
+	display: inline-block;
+	margin: 10px;
+}
+
+
 div.error-alert {
 
 	padding: 10px;
