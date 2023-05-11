@@ -13,10 +13,63 @@
 		<div class="main">
 		<h1>Howdy!</h1>
 		
-		<p>And welcome to the beta release for my API. While at first glance it might look like there's nothing here, that's actually just because there's nothing here.
-		Though I've started with the backend for this version, there still aren't any frontend capabilities, but don't worry, because as soon as I finish it, you'll be the first to know. :*
+		<p>And welcome to the beta release of my media server. This is where you'll find information about nearly every culturally significant movie out there.
+		The API is currently in its infancy, and probably broken. So there will likely be bugs galore, if you find one not specified in my TODO list, <a href="/feedback">please let me know</a>
+		Now, without further ado, what would you like to search for?
 
 
+
+		<form id="search_form" action="movies.php" method="GET">
+
+
+		<p>
+	                <label for="name">Movie ID:</label>
+	                <input type="text" name="id">
+	        </p>
+	        <p>
+	                <label for="name">Movie Name:</label>
+	                <input type="text" name="name">
+	        </p>
+	        <p>
+                	<label for="release_date">Release Date:</label>
+                	<input type="text" name="release_date">
+	        </p>
+	        <p>
+	                <label for="imdb_rating"><s>IMDB Rating:</s> (Broken)</label>
+	                <input type="text" name="imdb_rating">
+	        </p>
+	        <p>
+	                <label for="imdb_id">IMDB ID:</label>
+	                <input type="text" name="imdb_id">
+	        </p>
+	        <p>
+	                <label for="source"><s>Source:</s> (Broken)</label>
+	                <input type="text" name="source">
+	        </p>
+	        <p>
+	                <label for="path"><s>Path:</s> (Broken)</label>
+	                <input type="text" name="path">
+	        </p>
+		<p>
+	                <label for="path">Length:</label>
+	                <input type="text" name="length">
+	        </p>
+
+        	<input type="submit" value="Search">
+
+		</form>
+
+		<script>
+		$(document).ready(function(){
+		    $("form").submit(function(){
+		        $("input").each(function(index, obj){
+		            if($(obj).val() == "") {
+		                $(obj).remove();
+		            }
+		        });
+		    });
+		});
+		</script>
 
 		</div>
 	</body>
