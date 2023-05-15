@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+</head>
+<body>
+
+<script>
+$('body').terminal({
+	cat: function() {
+		this.echo($('<img src="https://placekitten.com/408/287">'));
+	},
+	hello: function() {
+        	this.echo("Hello World!");
+	},
+	help: function() {
+		this.echo("I lied. No one's coming to help you... You're on your own.");
+	},
+	catsize: function(width, height) {
+        this.echo('<img src="https://placekitten.com/' +
+                  width + '/' + height + '">', {raw: true});
+	},
+	
+	// Bash functions
+	pwd: function() {
+		this.echo("Not a real directory.");
+	},
+	ls: function() {
+		this.echo("This isn't a real directory.");
+	},
+	cd: function(directory) {
+		this.echo("This isn't a real directory, and neither is \'" + directory + "\'.");
+	},
+	nano: function(file) {
+		if(file.localeCompare("index.html") == 0) {
+			this.echo("The file can't be edited because it is currently in use... By you.");
+		} else if (file.includes("../")) {
+			this.echo("The file can't be edited because you don't have the appropriate permissions, and never will.");
+		} else {
+	                this.echo("The file can't be edited because it doesn't exist.");
+		}
+        },
+
+	home: function() {
+                this.echo("Redirecting...");
+                window.location.replace("http://grouse.lol");
+        },
+	api: function() {
+		this.echo("Redirecting...");
+		window.location.replace("http://grouse.lol/api/beta");
+	}
+}, {
+    greetings: 'Welcome to the Grouserver! Type \'help\' to get started!\n'
+});
+</script>
+
+</body>
+</html>
