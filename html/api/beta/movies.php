@@ -119,7 +119,7 @@ class Movies
 
 
 
-                $sql .= " where id > 0 $filter";
+                $sql .= " where id > 0 $filter ORDER BY release_date";
 
             }
 
