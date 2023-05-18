@@ -13,7 +13,7 @@ class Movies
         try {
 
 
-            $db_name     = 'media2';
+            $db_name     = 'media';
 
             $db_user     = 'website';
 
