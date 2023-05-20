@@ -157,10 +157,7 @@ class Movies
 
             }
 
-
-
-           return json_encode($response, JSON_PRETTY_PRINT);
-
+		return json_encode($response, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
 
 
     } catch (PDOException $ex) {
@@ -181,6 +178,8 @@ class Movies
 
 }
 
+	header('Content-Type: application/json; charset=utf-8', true,200);
+
 	$movies = new Movies();
 
 	$result = $movies->read();
@@ -189,10 +188,5 @@ class Movies
 		echo $result["message"];
 	} else {
 
-
-		echo "<pre>";
-
 		echo $result;
-
-		echo "</pre>";
 	}
