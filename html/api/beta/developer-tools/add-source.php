@@ -66,15 +66,6 @@ $index = array_search($type, $possibleTypes);
 $table = $tables[$index];
 $header = $headers[$index];
 
-echo "<div class='main'>";
-echo $table;
-if($isSourceFilled) {
-
-echo "fileld";
-} else {
-echo "empy";
-}
-echo "</div>";
 
 
 if($id){
