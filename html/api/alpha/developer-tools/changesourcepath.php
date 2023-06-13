@@ -1,4 +1,8 @@
 <html>
+<head>
+	<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+
 
 <form action="changesourcepath.php" method="get">
 	ID: <input type="text" name="id"><br>

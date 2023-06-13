@@ -3,6 +3,7 @@
 <head>
 <title>Add Source</title>
 <link rel="stylesheet" href="/css/stylesheet.css">
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
 
 </head>
 

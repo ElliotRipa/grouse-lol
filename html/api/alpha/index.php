@@ -1,10 +1,6 @@
 <?php
 
-
-
 header("Content-type:application/json");
-
-
 
 function load_class($class) {
 
