@@ -6,7 +6,7 @@
 
 $servername = "localhost";
 $username = "website";
-$password = "";
+$password = "Enter Password Here";
 $dbname = "media";
 
 $file = fopen("", "r");

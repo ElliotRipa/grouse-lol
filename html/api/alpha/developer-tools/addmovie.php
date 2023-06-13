@@ -65,7 +65,7 @@ for (i = 0; i < close.length; i++) {
 
 $servername = "localhost";
 $username = "website";
-$password = "ne!JB9C2SK35";
+$password = "Enter Password Here";
 $dbname = "media";
 
 $possibleFields = ["source", "path", "imdb_id", "imdb_rating"];

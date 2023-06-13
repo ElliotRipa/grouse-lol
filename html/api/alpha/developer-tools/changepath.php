@@ -16,7 +16,7 @@
 
 $servername = "localhost";
 $username = "website";
-$password = "ne!JB9C2SK35";
+$password = "Enter Password Here";
 $dbname = "media";
 
 
