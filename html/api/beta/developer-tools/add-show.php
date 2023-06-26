@@ -22,7 +22,7 @@
 	<p>
 		<label for "start_date"> Start Date:</label>
 		<input type="text" name="start_date">
-	</p>
+	</p><!--
         <p>
                 <label for="end_name">End Date:</label>
                 <input type="text" name="name">
@@ -30,7 +30,7 @@
 	<p>
 		<label for "ended"> Ended:</label>
 		<input type="text" name="ended">
-	</p>
+	</p>-->
 	<p>
 		<label for "imdb_rating"> IMDB Rating:</label>
 		<input type="text" name="imdb_rating">
@@ -55,7 +55,7 @@ $username = "website";
 $password = "ne!JB9C2SK35";
 $dbname = "media";
 
-$possibleFields = ["end_date", "ended", "imdb_id", "imdb_rating"];
+$possibleFields = [/*"end_date", "ended", */"imdb_id", "imdb_rating"];
 $specifiedFields = "";
 $specifiedValues = "";
 
@@ -83,8 +83,8 @@ try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  $sql = "INSERT INTO shows (name, start_date".$specifiedFields.", date_checked)
-  VALUES ($name, $start_date".$specifiedValues.", '".date("Y-m-d")."')";
+  $sql = "INSERT INTO Shows (name, start_date".$specifiedFields.")
+  VALUES ($name, $start_date".$specifiedValues.")";
   //use exec() because no results are returned
   $conn->exec($sql);
   echo "New record created successfully";
